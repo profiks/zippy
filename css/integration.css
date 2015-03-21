@@ -1,18 +1,6 @@
 /* ==========================================================================
 My custom styles
    ========================================================================== */
-body{
-    padding-top: 50px;
-}
-
-img-div{
-    height:200px;
-    width:200px;
-    overflow:hidden;
-    border-radius:50%;
-}
-
-
 
 @font-face {
     font-family:"Socialico";
@@ -27,13 +15,159 @@ img-div{
     src:url("../fonts/Stainy_PersonalUseOnly.ttf");
 }
 
-#logo{
-    font-family:"Stainy_PersonalUseOnly";
-    font-size: 200px;
-    color: #178dcc;
+/*==========================header===============================*/
+body{
+    padding-top: 50px;
+}
+
+ /*nav*/
+
+.navbar{
+    background: #178dcc;
+    
 }
 
 
+#navbar a{
+    color: #fff;
+}
+
+#navbar a:hover{
+    background: #63bbe6;
+}
+
+    /*active menu item*/
+.active{
+ background: #63bbe6;
+}
+
+
+@media (min-width: 768px){
+    .navbar-nav{
+        float:none;
+        margin: 0 auto;
+        display: table;
+        table-layout: fixed;
+    }
+}
+
+
+/*logo*/
+
+.navbar-inverse .navbar-brand {
+  font-family: "Myriad Pro";
+	font-size: 30px;
+	color: #fff;
+}
+
+.mini-logo{
+    font-family: "Stainy_PersonalUseOnly";
+	font-size: 30px;
+	color: #fff;
+}
+
+
+.navbar-inverse {
+  background-color:#178dcc;
+  border-color: transparent;
+}
+
+
+/*lang*/
+
+.lang li{
+    list-style: none;
+    float: left;
+    margin-top: 9px;
+}
+
+
+
+
+.btn-circle {
+  width: 30px;
+  height: 30px;
+  text-align: center;
+  padding: 6px 0;
+  font-size: 12px;
+  line-height: 1.428571429;
+  border-radius: 50%;
+    color: #63bbe6;
+    margin-left: 5px;
+}
+
+
+/* ================================= content ========================= */
+
+.section-1{
+    min-height: 948px;
+}
+
+.section-2{
+    min-height: 1000px;
+    background: #ececed;
+}
+
+.container {
+    width: 100%;
+}
+.section-3{
+    min-height: ;
+}
+.section-4{
+    min-height: ;
+}
+
+.section-5{
+    min-height: ;
+}
+
+
+/*logo*/
+#logo{
+    font-family:"Stainy_PersonalUseOnly"; 
+    font-size: 200px;
+}
+
+h1{
+    
+    color: #178dcc;
+    text-align: center;
+    font-size: 100px;
+}
+
+
+
+
+.slug{
+    font-family: "Myriad Pro";
+	font-size: 30px;
+	color: #000;
+    text-align: center;
+}
+
+.free-system{
+    font-family: "Myriad Pro";
+	font-size: 22px;
+	text-transform: uppercase;
+	color: #188ac6;
+    margin-top: 100px;
+    padding-left: 100px;
+}
+
+.view-more-btn{
+    border-radius: 50px;
+    font-size: 22px;
+	text-transform: uppercase;
+	color: #fff;
+    margin-top: 60px;
+}
+
+
+
+
+
+/*===========================================footer========================================*/
 footer{
     text-align: center;
 }
