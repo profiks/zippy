@@ -1,3 +1,5 @@
+/* canvas animation */
+
 (function() {
 
     var lastTime = 0;
@@ -113,3 +115,26 @@
 	coinImage.src = "images/animated-cloud.png";
 
 } ());
+
+
+
+
+
+
+
+
+/* scrollorama*/
+
+
+
+$(document).ready(function() {
+    var scrollorama = $.scrollorama({
+        blocks:''
+    });
+    
+    
+    
+    scrollorama.animate('',{
+    	duration:200, property:'left', end:-860
+    });
+});
