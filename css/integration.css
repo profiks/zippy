@@ -94,32 +94,19 @@ body{
   border-radius: 50%;
     color: #63bbe6;
     margin-left: 5px;
+    border: none;
 }
 
-
+.btn-circle:hover{
+    background: #63bbe6;
+    border: none;
+}
 /* ================================= content ========================= */
 
-.section-1{
-    min-height: 948px;
-}
-
-.section-2{
-    min-height: 1000px;
-    background: #ececed;
-}
-
-.container {
-    width: 100%;
-}
-.section-3{
-    min-height: ;
-}
-.section-4{
-    min-height: ;
-}
-
-.section-5{
-    min-height: ;
+@media (min-width: 768px){
+    header{
+        min-height: 947px;
+    }
 }
 
 
@@ -127,6 +114,7 @@ body{
 #logo{
     font-family:"Stainy_PersonalUseOnly"; 
     font-size: 200px;
+    margin-top: 50px;
 }
 
 h1{
@@ -155,8 +143,15 @@ h1{
     padding-left: 100px;
 }
 
+@media (min-width: 768px){
+    .free-system{
+        margin-top: 100px;
+        padding-left: 100px;
+    }
+}
+
 .view-more-btn{
-    border-radius: 50px;
+   
     font-size: 22px;
 	text-transform: uppercase;
 	color: #fff;
@@ -164,6 +159,95 @@ h1{
 }
 
 
+/*advantages*/
+
+.advantages{
+    background: #ececed;
+}
+
+    @media (min-width: 768px){
+    .advantages{
+        min-height: 1000px;
+    }
+}
+
+.advantages h2{
+    font-family: "Myriad Pro";
+	font-size: 36px;
+	color: #727272;
+    text-align: center;
+    margin: 105px 0 105px 0;
+
+}
+
+.table>tbody>tr>th, .table>tbody>tr>td {
+    border-top: none;
+}
+
+.hover-icons span {
+    display: block;
+    width: 94px;
+    height: 94px;
+}
+
+
+/*sprite*/
+.open-code{ background: url(../images/iconsr-sprite.png) no-repeat 0 0;}
+.open-code:hover{ background: url(../images/iconsr-sprite.png) no-repeat 0 -94px;}
+
+.easy-settings{ background: url(../images/iconsr-sprite.png) no-repeat -94px 0;}
+.easy-settings:hover{ background: url(../images/iconsr-sprite.png) no-repeat -94px -94px;}
+
+.crossplatform{ background: url(../images/iconsr-sprite.png) no-repeat -188px 0;}
+.crossplatform:hover{ background: url(../images/iconsr-sprite.png) no-repeat -188px -94px;}
+
+.different-devices{ background: url(../images/iconsr-sprite.png) no-repeat -282px 0;}
+.different-devices:hover{ background: url(../images/iconsr-sprite.png) no-repeat -282px -94px;}
+
+
+.hover-icons p{
+    font-family: "Myriad Pro";
+	font-size: 18px;
+	color: #686868;
+    margin-top: 25px;
+}
+
+
+.iphone{
+    margin-top: 98px;
+}
+
+/*try beta version: ;*/
+
+@media (min-width: 768px){
+        .try-beta{
+            min-height: 504px;
+        }
+    }
+
+
+/* news block*/
+.news{
+    background: #f3f5f5;
+}
+
+     @media (min-width: 768px){
+        .news{
+            min-height: 407px;
+        }
+    }
+
+
+/* road map */
+.road-map{
+    background: #178dcc;
+    color: #fff;
+}
+     @media (min-width: 768px){
+        .road-map{
+            min-height: 490px;
+        }
+    }
 
 
 
@@ -171,6 +255,12 @@ h1{
 footer{
     text-align: center;
 }
+
+     @media (min-width: 768px){
+            footer{
+                min-height: 351px;
+            }
+    }
 
 .social-ico a{
     font-family:"Socialico";
