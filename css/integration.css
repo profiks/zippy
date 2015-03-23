@@ -143,6 +143,15 @@ h1{
     padding-left: 100px;
 }
 
+.free-system .btn-primary{
+    background: #178dcc;
+    border-color: transparent;
+}
+
+.free-system .btn-primary:hover{
+    background: #63bbe6;
+}
+
 @media (min-width: 768px){
     .free-system{
         margin-top: 100px;
@@ -225,6 +234,39 @@ h1{
         }
     }
 
+.try-beta h3 {
+    font-size: 30px;
+	color: #178dcc;
+    margin: 87px 0;
+    text-align: center;
+}
+
+.try-beta .btn-primary{
+    background: #178dcc;
+    border-color: transparent;
+}
+
+.try-beta .btn-primary:hover{
+    background: #63bbe6;
+}
+
+.try-beta canvas{
+    margin: 117px 0 0 0;
+}
+
+.try-beta p{
+    font-size: 20px;
+	color: #2d2e2e;
+    text-align: right;
+}
+
+.try-beta .custom-btn {
+    width: 145px;
+	height: 37px;
+	-webkit-border-radius: 5px;
+	-moz-border-radius: 5px;
+	border-radius: 5px
+}
 
 /* news block*/
 .news{
