@@ -117,28 +117,34 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#83b7f6', end
 
 /*logo*/
 #logo{
-    font-family:"Stainy_PersonalUseOnly"; 
-    font-size: 200px;
-    margin-top: 50px;
-    color: #e1290f;
+    
+    display: block;
+    width: 362px;
+    height: 204px;
+    background: url(../images/flares__3.png) no-repeat;
+    background-size:cover;
+    -moz-background-size:cover;
+    -o-background-size:cover;
+    
+
 }
 
 
 
-h1{
-    
+h1{    
     color: #fff;
     text-align: center;
     font-size: 100px;
+    display: block;
+    
 }
-
 
 
 
 .slug{
     font-family: "Myriad Pro";
-	font-size: 30px;
-	color: #686868;
+	font-size: 18px;
+	color: #fff;
     text-align: center;
 }
 
@@ -146,7 +152,7 @@ h1{
     font-family: "Myriad Pro";
 	font-size: 22px;
 	text-transform: uppercase;
-	color: #188ac6;
+	color: #fff;
     margin-top: 100px;
     padding-left: 100px;
 }
@@ -177,16 +183,6 @@ h1{
 
 
 /*advantages*/
-
-.advantages{
-    background: #ececed;
-}
-
-    @media (min-width: 768px){
-    .advantages{
-        min-height: 1000px;
-    }
-}
 
 .advantages h2{
     font-family: "Myriad Pro";
@@ -256,8 +252,9 @@ h1{
     border-color: transparent;
 }
 
-.try-beta .btn-primary:hover{
+.btn-primary:hover{
     background: #63bbe6;
+    border-color: #fff;
 }
 
 .try-beta canvas{
